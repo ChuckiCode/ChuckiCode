@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ChuckiCODE"
+        content="Web Developer and UI UX designer that develops websites, web aplications and mini games">
+    <meta property="og:image" content="media/UntitledmeBack.jpg">
+    <meta property="og:description"
+        content="I code from scratch, challenge myself daily and build awsume projects that can be reveiwed and even tested like mini games">
+    <meta property="og:title" content="Development and Designing Studio">
+    <link rel="icon" href="media/ccLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>ChuckiCODE - Contact</title>
+</head>
+<body>
+  <header>
+    <img src="../media/bars-solid.svg" alt="" width="30px" style="margin: 5px;" id="menuIcon" onclick="activateMenu()">
+</header>
+
+<div id="sideMnu">
+    <div id="contactBox">
+    <a href="tel:+27680755153"><img src="../media/phone-solid.svg" alt="" width="20px" class="contactIcon"></a>
+    <a href="mailto:mag3davis@gmail.com"><img src="../media/envelope-open-text-solid.svg" alt="" width="20px" class="contactIcon"></a>
+</div>
+<nav>
+    <ul>
+        <li><a href="../index.html" rel="noopener noreferrer">HOME</a></li>
+        <li><a href="../pages/proj.html" rel="noopener noreferrer">PROJECTS</a></li>
+        <li><a href="#" rel="noopener noreferrer">CONTACT</a></li>
+    </ul>
+</nav>
+</div>
+
+    <section id="contact_introBox"></section>
+    <div class="container">
+      <form action="action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+    <script src="../js/app.js"></script>
+</body>
+</html>
