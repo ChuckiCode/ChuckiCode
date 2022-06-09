@@ -1,7 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
         margin: 0;
         padding: 0;
-        max-height: fit-content;
+        height: fit-content;
         background-color: cornsilk;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -66,10 +71,6 @@ input[type=submit] {
     /* /////////////////////////////////Responsive for mobile phones 360px //////////////////////////////// */
 @media only screen and (max-width: 600px) {
     /* /////////////////////////////////Main page //////////////////////////////// */
-    body{
-        width: 100%;
-        height: fit-content;
-    }
     #contactBox{
         width: 100%;
         height: 100px;
@@ -170,12 +171,13 @@ input[type=submit] {
         align-items: center;
         justify-content: center;
     }
-    #main{
-        width: 90%;
-        height: 300px;
-        overflow: hidden;
+    main{
+        margin: 10px 0;
+        width: 100%;
+        /* min-height: fit-content; */
+        max-height: 300px;
     }
-    #main h2{
+    main h2{
         color: #0a1337;
         margin: 0;
         padding: 0;
@@ -193,11 +195,12 @@ input[type=submit] {
     footer{
         height: 8vh;
         background-color: #06081b;
-        position: absolute;
+        position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;
         color: whitesmoke;
+        text-align: center;
     }
 
 
