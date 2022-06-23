@@ -12,11 +12,8 @@ body{
         font-family: 'Times New Roman', Times, serif;
     }
 
-
-
-
 /* ////////////////////////////////////contact Form//////////////////////////////////////////// */
-input[type=text], select, textarea{
+input[type=text], [type=email], select, textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -259,6 +256,21 @@ input[type=submit] {
 
     #projectArticle_extraText, #designArticle_extraText, #marketArticle_extraText{
         display: none;
+    }
+
+    ul{
+        /* background-color: #04AA6D; */
+        text-align: start;
+    }
+    ul h3{
+        margin: 5px 10px;
+    }
+    ul li{
+        display: inline-block;
+        background-color: #414f76;
+        font-size: 12px;
+        margin: 2px;
+        border-radius: 3.75px;
     }
     /* /////////////////////////////////Contact page //////////////////////////////// */
 

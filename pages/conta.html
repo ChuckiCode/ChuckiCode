@@ -38,11 +38,14 @@
     </section>
     <div class="container">
 
+
       <!-- The contact form  -->
       <form action="mailto:mag3davis@gmail.com?subject=From contact form" method="POST" enctype="text/plain">
+        <h2>Get in touch</h2>
+        <p>Tell us about your website or projects ideas and we will get back to you within 24 hours</p>
         <div class="row">
           <div class="col-25">
-            <label for="fname">First Name</label>
+            <label for="fname">Name</label>
           </div>
           <div class="col-75">
             <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
@@ -50,10 +53,10 @@
         </div>
         <div class="row">
           <div class="col-25">
-            <label for="lname">Last Name</label>
+            <label for="email">Email</label>
           </div>
           <div class="col-75">
-            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+            <input type="email" id="mail" name="email" placeholder="yourmail@example.com" required>
           </div>
         </div>
         <div class="row">
@@ -78,7 +81,7 @@
           </div>
         </div>
         <div class="row">
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit" onclick="sendSuc()">
         </div>
       </form>
     </div>
