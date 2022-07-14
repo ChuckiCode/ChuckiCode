@@ -1,5 +1,6 @@
 "use strict";
 
+
 //////////////////////////////Side menu///////////////////////////////////////////////////
 let openMenu = false; 
 
@@ -14,26 +15,17 @@ if(openMenu === true){
     });
 }};
 
+let slideIndex = 0;
+showSlides();
 
-
-
-/// Project article
-function projAdd (){
-    document.getElementById('projMoreBtn').style.display = 'none';
-    document.getElementById('projectArticle_extraText').style.display = 'block';
-    document.getElementById('projectArticle').style.height = 'fit-content';
-}
-
-/// Design article
-function designAdd (){
-    document.getElementById('designBtn').style.display = 'none';
-    document.getElementById('designArticle_extraText').style.display = 'block';
-    document.getElementById('designArticle').style.height = 'fit-content';
-}
-
-/// Marketing article
-function marketAdd (){
-    document.getElementById('marketBtn').style.display = 'none';
-    document.getElementById('marketArticle_extraText').style.display = 'block';
-    document.getElementById('marketingArticle').style.height = 'fit-content';
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }

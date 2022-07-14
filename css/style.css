@@ -39,7 +39,7 @@ body{
     nav{
         width: fit-content;
         height: fit-content;
-        background-color: transparent;
+        /* background-color: green; */
         display: flex;
         justify-content: end;
         align-items: center;
@@ -147,71 +147,112 @@ body{
     justify-content: center;
     font-size: 22px;
 }
-#chap{
+.projContainer{
     width: 100%;
-    height: fit-content;
+    height: 80vh;
+    background-color: #ffffff;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
 }
 .articles{
+    margin: 10px 0;
     text-align: center;
-    height: 380px;
-    max-height: fit-content;
-    width: 360px;
+    height: 100%;
+    width: 100%;
     color: whitesmoke;
     margin: 20px;
     border-radius: 4.5px;
+    background-color: #b1b1b1;
+    overflow: hidden;
+}
+.articles h2{
+    font-size: 28px;
+    margin: auto auto;
+    color: #3b3b3b;
+}
+.asideNotActivated{
+    display: none;
+}
+.asideActivated{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #6075b1;
+    
+}
+.articles h3{
+    font-size: 20px;
+    text-align: start;
+    margin: 2px 5px;
+    color: #13265a;
 }
 .articles p{
     margin: 8px;
-    font-size: 16px;
+    font-size: 19px;
+    margin: 10px;
 }
-#projectArticle{
-    background-color: #6e85c7;
-}
-#designArticle{
-    background-color: #6e85c7;
-}
-#marketingArticle{
-    background-color: #6e85c7;
+
+li{
+    display: inline;
+    margin: 2px;
+    padding: 3px 5px;
+    border-radius: 3.5px;
+    background-color: #04AA6D;
+    font-size: 12px;
+
 }
 .articles button{
     width: 100px;
     height: 30px;
     border: none;
     border-radius: 4px;
-    background-color: #9dc1f4;
-    margin: 10px 0;
+    background-color: #3b3b3b;
+    margin: auto;
     padding: 0;
     color: whitesmoke;
 }
 
-#projectArticle_extraText, #designArticle_extraText, #marketArticle_extraText{
+#wraperImages_proj{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.projWraper,
+.stragWraper,
+.slideshow-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projIcons{
+    filter: grayscale(10);
+}
+.projIcons:hover{
+    filter: grayscale(0);
+}
+
+
+  
+  /* Hide the images by default */
+  .mySlides {
     display: none;
-}
-
-ul{
-    /* background-color: #04AA6D; */
-    text-align: start;
-}
-ul h3{
-    margin: 5px 10px;
-}
-ul li{
-    display: inline-block;
-    background-color: #414f76;
-    font-size: 12px;
-    margin: 2px;
-    border-radius: 3.75px;
-}
-
-
-
-
-
-
-
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 
 
 /* ////////////////////////////////////contact Form//////////////////////////////////////////// */
@@ -448,6 +489,9 @@ input[type=submit] {
     #chap{
         width: 100%;
         height: fit-content;
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: #0a1337;
     }
     .articles{
         text-align: center;
@@ -461,15 +505,6 @@ input[type=submit] {
         margin: 8px;
         font-size: 16px;
     }
-    #projectArticle{
-        background-color: #6e85c7;
-    }
-    #designArticle{
-        background-color: #6e85c7;
-    }
-    #marketingArticle{
-        background-color: #6e85c7;
-    }
     .articles button{
         width: 100px;
         height: 30px;
@@ -481,7 +516,7 @@ input[type=submit] {
         color: whitesmoke;
     }
 
-    #projectArticle_extraText, #designArticle_extraText, #marketArticle_extraText{
+    .projectCards_aside{
         display: none;
     }
 

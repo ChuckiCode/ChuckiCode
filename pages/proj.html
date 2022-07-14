@@ -17,8 +17,8 @@
 <body>
 <header>
     <img src="../media/bars-solid.svg" alt="" width="30px" style="margin: 5px;" id="menuIcon" onclick="activateMenu()">
-    <nav>
-        <ul class="resNav">
+    <nav class="resNav">
+        <ul>
             <li><a href="../index.html" rel="noopener noreferrer">HOME</a></li>
             <li><a href="#" rel="noopener noreferrer">PROJECTS</a></li>
             <li><a href="../pages/conta.html" rel="noopener noreferrer">CONTACT</a></li>
@@ -39,91 +39,175 @@
     </ul>
 </nav>
 </div>
+<!--////////////////////////Main Container/////////////////////// -->
 <section id="project_introBlock">
     <h2 id="projectAniText"></h2>
 </section>
-    <section id="chap" class="projContainer">
-        <article id="projectArticle" class="articles">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--//////////////////////// Container one/////////////////////// -->
+    <section class="projContainer">
+        <article class="articles">
             <h2>Projects</h2>
-            <img src="../media/udraw/undraw_programming_re_kg9v.svg" alt="" width="200px" style="margin: auto;">
+            <img src="../media/udraw/undraw_programming_re_kg9v.svg" alt="" width="300px" style="margin: auto;">
             <p>My web development projects can range from mini web games, web pages, complex web applications, websites and social network services.</p>
-            <button id="projMoreBtn" onclick="projAdd()">MORE</button>
-            <aside>
-                <ul id="projectArticle_extraText">
-                    <hr>
+            <button class="moreBtn">MORE</button>
+            <aside class="asideNotActivated">
+                <ul>
                     <h3>Websites</h3>
                     <li>Static</li>
                     <li>Dynamic</li>
-                    <li>Homepages</li>
-                    <li>Magazine websites</li>
-                    <li>Portfolio websites</li>
-                    <hr>
                     <h3>Web Applications</h3>
-                    <li>Animated web applications</li>
-                    <li>E-Commerce web application</li>
-                    <li>Single-page web application</li>
-                    <hr>
+                    <li>E-Commerce</li>
+                    <li>Single-page</li>
                     <h3>Social network</h3>
-                    <li>Blog comments and forums</li>
-                    <li>Community Blogs</li>
-                    <li>Social news</li>
-                    <li>Bookmarking Sites</li>
+                    <li>Blog</li>
+                    <li>Social</li>
                 </ul>
                 <div class="btnBox">
                     <button onclick="location.href='../pages/conta.html'">Contact</button>
                 </div>
             </aside>
         </article>
-        <article id="designArticle" class="articles">
-            <h2>Designs</h2>
-            <img src="../media/udraw/undraw_innovative_re_rr5i.svg" alt="" width="200px" style="margin: auto;">
-            <p>My aim is to create visual content to communicate messages by page layout techniques, typography and pictures to meet logic of displaying elements</p>
-            <button id="designBtn" onclick="designAdd()">MORE</button>
-            <aside>
-                <ul id="designArticle_extraText">
-                    <hr>
-                    <h3>Digital Designs</h3>
-                    <li>Product design</li>
-                    <li>Branding design</li>
-                    <li>Website design</li>
-                    <li>Animation design</li>
-                    <hr>
-                    <h3>UX UI Designs</h3>
-                    <li>Visual design and design software</li>
-                    <li>User flows</li>
-                    <li>Mockups</li>
-                    <hr>
-                    <h3>Graphic Designs</h3>
-                    <li>Illustration</li>
-                    <li>Game Design</li>
-                    <li>Packaging Design</li>
-                    <li>Advertising and Marketing Design</li>
-                </ul>
-                <div class="btnBox">
-                    <button onclick="location.href='../pages/conta.html'">Contact</button>
-                </div>
-            </aside>
-        </article>
-        <article id="marketingArticle" class="articles">
+        <div class="projWraper "  id="wraperImages_proj">
+            <img src="../media/proj/Capture.PNG" alt="" width="280px" style="margin: auto;">
+            <img src="../media/proj/geuss.PNG" alt="" width="280px" style="margin: auto;">
+            <img src="../media/proj/pig.PNG" alt="" width="280px" style="margin: auto;">
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--//////////////////////// Container two/////////////////////// -->
+    <section class="projContainer">
+<div class="stragWraper">
+    <a href="https://www.facebook.com/www.abandon.ink" target="_blank" rel="noopener noreferrer">
+        <img class="projIcons" src="../media/abndon.jpg" alt="" width="150" style="border-radius: 50px;">
+    </a>
+    <a href="https://m.facebook.com/profile.php?id=100063601087649&_rdr" target="_blank" rel="noopener noreferrer">
+        <img class="projIcons" src="../media/brbox.jpg" alt="" width="150" style="border-radius: 50px;">
+    </a>
+    
+</div>
+
+       <article class="articles">
             <h2>Strageties</h2>
-            <img src="../media/udraw/undraw_pie_graph_re_fvol.svg" alt="" width="200px" style="margin: auto;">
+            <img src="../media/udraw/undraw_pie_graph_re_fvol.svg" alt="" width="300px" style="margin: auto;">
             <p>My focus on marketing is the process of exploring, creating, and delivering value to meet the needs of a target market in terms of goods and services</p>
-            <button id="marketBtn" onclick="marketAdd()">MORE</button>
-            <aside>
-                <ul id="marketArticle_extraText">
-                    <hr>
+            <button class="moreBtn">MORE</button>     
+            <aside class="asideNotActivated">
+                <ul>
                     <h3>Digital marketing</h3>
-                    <li>Promotion of brands</li>
-                    <li>Social Media Marketing (SMM)</li>
-                    <li>Search Engine Optimization (SEO)</li>
-                    <li>Display Advertising</li>
-                    <hr> 
+                    <li>SMM</li>
+                    <li>SEO</li>
                 </ul>
                 <div class="btnBox">
                     <button onclick="location.href='../pages/conta.html'">Contact</button>
                 </div>
             </aside>
         </article>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--//////////////////////// Container three/////////////////////// -->
+    <section class="projContainer">
+          <article class="articles">
+            <h2>Designs</h2>
+            <img src="../media/udraw/undraw_innovative_re_rr5i.svg" alt="" width="300px" style="margin: auto;">
+            <p>My aim is to create visual content to communicate messages by page layout techniques, typography and pictures to meet logic of displaying elements</p>
+            <button class="moreBtn">MORE</button>
+            <aside class="asideNotActivated">
+                <ul>
+                    <h3>Digital Designs</h3>
+                    <li>Branding design</li>
+
+                    <h3>UX UI Designs</h3>
+                    <li>Mockups</li>
+                    <li>Illustration</li>
+                    <li>Packaging Design</li>
+                </ul>
+                <div class="btnBox">
+                    <button onclick="location.href='../pages/conta.html'">Contact</button>
+                </div>
+            </aside>
+        </article>
+
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <img src="../media/slideImages/Designs/Capture.PNG" style="width:100%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="../media/slideImages/Designs/UntitledCoffeeShop.svg" style="width:100%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="../media/slideImages/Designs/UntitledSkaterProSvg.svg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../media/slideImages/Designs//Untitled@3xfashoinCC.svg" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="../media/slideImages/Designs/UntitledDesign1a.svg" style="width:100%">
+              </div>
     </section>
     <footer>
         <small>Copyright 2021-2022. All Rights Reserved.</small>
