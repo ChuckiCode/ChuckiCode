@@ -8,13 +8,15 @@ body{
         padding: 0;
         height: 100vh;
         min-height: fit-content;
-        background-color: cornsilk;
+        /* background-color: #000000; */
         font-family: 'Times New Roman', Times, serif;
     }
     header{
         width: 100%;
-        height: 40px;
-        background-color: #414f76;
+        height: 60px;
+        background-color: rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     #menuIcon{
         display: none;
@@ -34,40 +36,55 @@ body{
     }
     a{
         text-decoration: none;
-        color: whitesmoke;
+        color: rgb(0, 0, 0);
+        /* border: 1px solid black; */
+        padding: 5px 15px;
+        margin: 0 8px;
+        border-radius: 3.5px;
+        background-color: rgb(11, 113, 0);
+    }
+    a:hover{
+        transition-duration: 1s;
+        background-color: #2bff00;
     }
     nav{
-        width: fit-content;
-        height: fit-content;
-        /* background-color: green; */
+        width: 100%;
+        height: 100%;
         display: flex;
-        justify-content: end;
+        justify-content: center;
         align-items: center;
-    }
-    li{
-        list-style: none;
-        display: inline-block;
-        /* background-color: teal; */
-        padding: 5px 20px ;
-        margin: 2px;
     }
     #sideMnu{
         display: none;
     }
     
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* <!--//////////////////////// Main Home page/////////////////////// --> */
     #main_introBox{
         width: 100%;
         height: 100vh;
-        background-color: #06081b;
+        background-image: url('../media/spacecc.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     #textBox{
-        width: 100%;
+        width: 360px;
         height: 250px;
         max-height: fit-content;
-        background-color: #447cdcdd;
+        background-color: #00000067;
         text-align: center;
         padding: 20px 0;
         margin: 10px 0;
@@ -136,42 +153,195 @@ body{
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 /* ///////////////////////////////////Project page////////////////////////////////////// */
 
+
+
+/* <!--////////////////////////H2 main text/////////////////////// --> */
+#projectAniText{
+    font-size: 24px;
+    color: #2bff00;
+    font-weight: lighter;
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+/* <!--//////////////////////// Intro container section/////////////////////// --> */
 #project_introBlock{
     width: 100%;
     height: 100vh;
-    background-color: #4c5481;
+    background-image: url('../media/spacecc.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!--//////////////////////// about section/////////////////////// --> */
+#aboutProject{
+    width: 100%;
+    height: 60vh;
+    background-color: #03012d;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#aboutBlock{
+    color: white;
+    width: 80%;
+    height: 60%;
+}
+#aboutBlock h2{
+    margin: 20px;
     font-size: 22px;
 }
+#aboutBlock p{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/* <!--//////////////////////// spacer/////////////////////// --> */
+
+#spacer{
+    width: 100%;
+    height: 60vh;
+    background-image: url('../media/UntitledSkyMEDesign.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* <!--//////////////////////// project section/////////////////////// --> */
 .projContainer{
     width: 100%;
-    height: 80vh;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 20px 0;
+    height: 100vh;
+    background-color: #03012d;
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 50px 0;
 }
+
+
+
+
+
+
+
+
+
+/* <!--//////////////////////// project article section/////////////////////// --> */
 .articles{
-    margin: 10px 0;
     text-align: center;
     height: 100%;
     width: 100%;
     color: whitesmoke;
-    margin: 20px;
-    border-radius: 4.5px;
-    background-color: #b1b1b1;
+    background-color: #03012d;
     overflow: hidden;
+    /* margin: auto; */
 }
 .articles h2{
     font-size: 28px;
     margin: auto auto;
-    color: #3b3b3b;
+    color: #ffffff;
+    /* background-color: #0c0028; */
 }
+
+.articles h3{
+    font-size: 20px;
+    text-align: start;
+    margin: 2px 5px;
+    color: #13265a;
+}
+
+.articles p{
+    margin: 8px;
+    font-size: 19px;
+    margin: 10px;
+}
+
+.articles button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(11, 113, 0);
+    margin: auto;
+    padding: 0;
+    color: whitesmoke;
+}
+
 .asideNotActivated{
     display: none;
 }
@@ -181,18 +351,68 @@ body{
     background-color: #6075b1;
     
 }
-.articles h3{
-    font-size: 20px;
-    text-align: start;
-    margin: 2px 5px;
-    color: #13265a;
+.projWraper, .stragWraper, .designsWraper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
 }
-.articles p{
-    margin: 8px;
-    font-size: 19px;
-    margin: 10px;
+.stragWraper a{
+    background-color: transparent;
 }
 
+
+
+/* /////////////////////////////////////////////////////////////////// */
+#secondSpacer{
+    width: 100%;
+    height: 80vh;
+    background-color: #03012d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the form element with a border around it */
+#newsForm {
+    border: 4px solid #f1f1f1;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .formNewsContainer {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the input elements and the submit button */
+  #newsForm input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+  #newsForm input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+  #newsForm input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  #newsForm nput[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+s
 li{
     display: inline;
     margin: 2px;
@@ -202,57 +422,47 @@ li{
     font-size: 12px;
 
 }
-.articles button{
-    width: 100px;
-    height: 30px;
-    border: none;
-    border-radius: 4px;
-    background-color: #3b3b3b;
-    margin: auto;
-    padding: 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* <!--//////////////////////// contact page  /////////////////////// --> */
+  #contact_introBox{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: whitesmoke;
-}
-
-#wraperImages_proj{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-
-.projWraper,
-.stragWraper,
-.slideshow-container{
     width: 100%;
-    height: 100%;
+    height: 300px;
+    background-color: #13265a;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-}
-
-.projIcons{
-    filter: grayscale(10);
-}
-.projIcons:hover{
-    filter: grayscale(0);
+    justify-content: center;
+    font-size: 22px;
 }
 
 
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+
+
+
+
 
 
 /* ////////////////////////////////////contact Form//////////////////////////////////////////// */
@@ -299,20 +509,45 @@ input[type=submit] {
   }
 
 
-  #contact_introBox{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: whitesmoke;
-    width: 100%;
-    height: 300px;
-    background-color: #13265a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+/* <!--//////////////////////// footer section/////////////////////// --> */
   footer{
     height: fit-content;
     background-color: #06081b;
@@ -323,6 +558,61 @@ input[type=submit] {
     color: whitesmoke;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
