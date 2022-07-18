@@ -2,8 +2,8 @@
 <rect width="1440" height="1024" fill="#F5F5F5"/>
 <rect width="1440" height="1024" fill="white"/>
 <rect width="1440" height="1024" fill="url(#pattern0)"/>
-<path d="M727.768 744.004C223.817 1039.01 0 492 0 492V1024H1440V637.071C1440 637.071 1231.72 449 727.768 744.004Z" fill="#0F2115" fill-opacity="0.74"/>
-<path d="M764.787 799.537C206.897 1049.37 0 497 0 497V1024H1440V773.512C1440 773.512 1322.68 549.7 764.787 799.537Z" fill="#040F1D"/>
+<path d="M727.768 744.004C223.817 1039.01 0 492 0 492V1024H1440V637.071C1440 637.071 1231.72 449 727.768 744.004Z" fill="#2bff00" fill-opacity="1"/>
+<path d="M764.787 799.537C206.897 1049.37 0 497 0 497V1024H1440V773.512C1440 773.512 1322.68 549.7 764.787 799.537Z" fill="#03012d"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_0_1" transform="translate(-0.0344468) scale(0.000371144 0.000521921)"/>

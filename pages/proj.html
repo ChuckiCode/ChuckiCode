@@ -14,100 +14,39 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra:wght@700&family=Cormorant+SC:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>ChuckiCODE | Projects</title>
 </head>
+
+
 <body>
-
-
-
     <!-- /////////////////////////////// header section////////// -->
-<header>
-
-
-
-
-
-
-
-
-
+    <header>
      <!-- /////////////////////////////// mobile menu icon////////// -->
     <img src="../media/bars-solid.svg" alt="" width="30px" style="margin: 5px;" id="menuIcon" onclick="activateMenu()">
-
-
-
-
-
-
-
-
-
-
-
-
      <!-- /////////////////////////////// logo icon////////// -->
     <img src="../media/Untitled@CCLogo.svg" alt="" width="50px" style="margin:auto;">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
      <!-- /////////////////////////////// navigation section////////// -->
     <nav>
             <a href="../index.html" rel="noopener noreferrer">HOME</a>
             <a href="#" rel="noopener noreferrer">PROJECTS</a>
           <a href="../pages/conta.html" rel="noopener noreferrer">CONTACT</a>
     </nav>
-</header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </header>
  <!-- /////////////////////////////// mobile side menu ////////// -->
 <div id="sideMnu">
     <div id="contactBox">
     <a href="tel:+27680755153"><img src="../media/phone-solid.svg" alt="" width="20px" class="contactIcon"></a>
     <a href="mailto:mag3davis@gmail.com"><img src="../media/envelope-open-text-solid.svg" alt="" width="20px" class="contactIcon"></a>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  <!-- /////////////////////////////// mobile navigation ////////// -->
 <nav>
     <ul>
@@ -117,158 +56,87 @@
     </ul>
 </nav>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 <!--////////////////////////H2 main text/////////////////////// -->
 <section id="project_introBlock">
     <h2 id="projectAniText"></h2>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--//////////////////////// about section/////////////////////// -->
-
 <section id="aboutProject">
     <div id="aboutBlock">
     <h2>WHAT MAKES MY WORK UNIQUE</h2>
-    <p>My projects and designs all comes from personal experiance, I surround my </p>
+    <p>My projects and designs all comes from personal experiance, I surround my with my projects to get the best understanding...</p>
     </div>
 </section>
-
-
-
-
-
-
-
-
 <!--//////////////////////// spacer/////////////////////// -->
 <div id="spacer">
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
 <!--////////////////////////Projects wraper/////////////////////// -->
     <section class="projContainer">
-
-
-
-
-
-
 <!--////////////////////////MProjects Container (one)/////////////////////// -->
-
         <article class="articles">
-            <h2>Projects</h2>
-            <img src="../media/udraw/undraw_programming_re_kg9v.svg" alt="" width="300px" style="margin: auto;">
+            <h2>WEB DEVELOPMENT</h2>
+            <img src="../media/udraw/undraw_programming_re_kg9v.svg" alt="" width="200px" style="margin: auto;">
             <p>My web development projects can range from mini web games, web pages, complex web applications, websites and social network services.</p>
             <button class="moreBtn">MORE</button>
-            <aside class="asideNotActivated">
-                <ul>
-                    <h3>Websites</h3>
-                    <li>Static</li>
-                    <li>Dynamic</li>
-                    <h3>Web Applications</h3>
-                    <li>E-Commerce</li>
-                    <li>Single-page</li>
-                    <h3>Social network</h3>
-                    <li>Blog</li>
-                    <li>Social</li>
-                </ul>
-                <div class="btnBox">
-                    <button onclick="location.href='../pages/conta.html'">Contact</button>
-                </div>
-            </aside>
         </article>
-        <div class="projWraper "  id="wraperImages_proj">
-            <img src="../media/proj/Capture.PNG" alt="" width="280px" style="margin: auto;">
-            <img src="../media/proj/geuss.PNG" alt="" width="280px" style="margin: auto;">
-            <img src="../media/proj/pig.PNG" alt="" width="280px" style="margin: auto;">
+
+        <div class="asideNotActivated">
+            <table>
+                <tr>
+                    <th>Websites</th><td>Static</td><td>Dynamic</td>
+                </tr>
+                <tr>
+                    <th>Web Applications</th><td>E-Commerce</td><td>Single-page</td>
+                </tr>
+                <tr>
+                    <th>Social network</th><td>Blog</td><td>Social</td>
+                </tr>
+            </table>
+            <div class="btnBox">
+                <button onclick="location.href='../pages/conta.html'">Contact</button>
+            </div>
+        </div>
+
+        <div class="projWraper" id="wraperImages_proj" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <img class="pics" src="../media/proj/Capture.PNG" alt="" width="280px" style="margin: auto;">
+            <img class="pics" src="../media/proj/geuss.PNG" alt="" width="280px" style="margin: auto;">
+            <img class="pics" src="../media/proj/pig.PNG" alt="" width="280px" style="margin: auto;">
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- ///////////////////////////////////////////////////////s -->
+    <div id="spacer">
+    </div>
+    <!-- ///////////////////////////////////////////////////////s -->
 
 <!--////////////////////////Marketing Container (two)/////////////////////// -->
     <section class="projContainer">
        <article class="articles">
-            <h2>Strageties</h2>
-            <img src="../media/udraw/undraw_pie_graph_re_fvol.svg" alt="" width="300px" style="margin: auto;">
+            <h2>MARKETING STRATEGY</h2>
+            <img src="../media/udraw/undraw_pie_graph_re_fvol.svg" alt="" width="200px" style="margin: auto;">
             <p>My focus on marketing is the process of exploring, creating, and delivering value to meet the needs of a target market in terms of goods and services</p>
             <button class="moreBtn">MORE</button>     
-            <aside class="asideNotActivated">
-                <ul>
-                    <h3>Digital marketing</h3>
-                    <li>SMM</li>
-                    <li>SEO</li>
-                </ul>
+        </article>
+        <div class="asideNotActivated">
+                <table>
+                    <tr>
+                    <th>Digital marketing</th>
+                    <td>SMM(Social Media Marketing)</li>
+                    <td>SEO(Search Engine Optimization)</li>
+                </tr>
+                </table>
                 <div class="btnBox">
                     <button onclick="location.href='../pages/conta.html'">Contact</button>
                 </div>
-            </aside>
-        </article>
-
-        <div class="stragWraper">
-
-    <a href="https://www.facebook.com/www.abandon.ink" target="_blank" rel="noopener noreferrer">
-        <img class="projIcons" src="../media/abndon.jpg" alt="" width="150" style="border-radius: 50px;">
+            </div>
+        <div class="projWraper" id="wraperImages_market" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+    <a class="linkPics" href="https://www.facebook.com/www.abandon.ink" target="_blank" rel="noopener noreferrer">
+        <img class="pics" src="../media/abndon.jpg" alt="" width="150" style="border-radius: 50px;">
     </a>
-    <a href="https://m.facebook.com/profile.php?id=100063601087649&_rdr" target="_blank" rel="noopener noreferrer">
-        <img class="projIcons" src="../media/brbox.jpg" alt="" width="150" style="border-radius: 50px;">
+    <a  class="linkPics" href="https://m.facebook.com/profile.php?id=100063601087649&_rdr" target="_blank" rel="noopener noreferrer">
+        <img class="pics" src="../media/brbox.jpg" alt="" width="150" style="border-radius: 50px;">
     </a>
 </div>
     </section>
@@ -276,11 +144,10 @@
 
 
 
-
-
-
-
-
+    <!-- ///////////////////////////////////////////////////////s -->
+    <div id="spacer">
+    </div>
+    <!-- ///////////////////////////////////////////////////////s -->
 
 
 
@@ -289,29 +156,34 @@
 <!--////////////////////////Design Container (three)/////////////////////// -->
     <section class="projContainer">
           <article class="articles">
-            <h2>Designs</h2>
-            <img src="../media/udraw/undraw_innovative_re_rr5i.svg" alt="" width="300px" style="margin: auto;">
+            <h2>DIGITAL DESIGNS</h2>
+            <img src="../media/udraw/undraw_innovative_re_rr5i.svg" alt="" width="200px" style="margin: auto;">
             <p>My aim is to create visual content to communicate messages by page layout techniques, typography and pictures to meet logic of displaying elements</p>
             <button class="moreBtn">MORE</button>
-            <aside class="asideNotActivated">
-                <ul>
-                    <h3>Digital Designs</h3>
-                    <li>Branding design</li>
-
-                    <h3>UX UI Designs</h3>
-                    <li>Mockups</li>
-                    <li>Illustration</li>
-                    <li>Packaging Design</li>
-                </ul>
-                <div class="btnBox">
-                    <button onclick="location.href='../pages/conta.html'">Contact</button>
-                </div>
-            </aside>
         </article>
-        <div class="designsWraper">
-            <img src="../media/slideImages/Designs/UntitledSkaterProSvg.svg" alt="" width="260px">
-            <img src="../media/slideImages/Designs/UntitledCoffeeShop.svg" alt="" width="260px">
-            <img src="../media/slideImages/Designs/Capture.PNG" alt="" width="260px">
+        <div class="asideNotActivated">
+            <table>
+                <tr>
+                     <th>Digital Designs</th>
+                <td>Branding design</td>
+                <td>Web design</td>
+                </tr>    
+                <tr>
+                    <th>UX UI Designs</th>
+                                    <td>Mockups</td>
+                                    <td>Illustration</td>
+                                    <td>Packaging Design</td>
+                </tr>         
+            </table>
+            <div class="btnBox">
+                <button onclick="location.href='../pages/conta.html'">Contact</button>
+            </div>
+        </div>
+        <div class="projWraper" id="wraperImages_design" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <img class="pics" src="../media/slideImages/Designs/UntitledSkaterProSvg.svg" alt="" width="260px">
+            <img class="pics" src="../media/slideImages/Designs/UntitledCoffeeShop.svg" alt="" width="260px">
+            <img class="pics" src="../media/slideImages/Designs/Capture.PNG" alt="" width="260px">
         </div>
     </section>
 
@@ -319,14 +191,21 @@
 
 
 
+
+    <!-- ///////////////////////////////////////////////////////s -->
+    <div id="spacer">
+    </div>
+
+
+
+        <!-- ///////////////////////////////////////////////////////s -->
 <div id="secondSpacer">
     <form id="newsForm" action="#">
         <div class="formNewsContainer">
           <h2>STAY TUNED</h2>
-          <p>Subscribe to my newsletter and never miss out on my latest designs, web development projects and news.</p><br>
+          <p>Subscribe to my newsletter and never miss out on my latest designs, web development projects and news.</p>
           <P>My newsletters is send once a week, every Monday.</P>
         </div>
-      
         <div class="formNewsContainer" style="background-color:white">
           <input type="text" placeholder="Name" name="name" required>
           <input type="text" placeholder="Email address" name="mail" required>
@@ -334,29 +213,17 @@
             <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
           </label>
         </div>
-      
         <div class="formNewsContainer">
           <input type="submit" value="Subscribe">
         </div>
       </form>
 </div>
-
-
-
-
-
-
-
-
-
-
      <!-- /////////////////////////////// footer section////////// -->
     <footer>
         <small>Copyright 2021-2022. All Rights Reserved.</small>
     </footer>
 <script src="../js/app.js"></script>
 <script>
-      
     //// Project page intro text 
     let i = 0;
     let txt = 'My projects and designs with marketing strageties that works';
@@ -371,5 +238,8 @@
     }
     typeWriter();
         </script>
+        <script>
+            AOS.init();
+          </script>
 </body>
 </html>
