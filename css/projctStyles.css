@@ -29,188 +29,117 @@ body{
         color: white;
     }
 
-
-    #projectAniText{
-        font-size: 24px;
-        color: #2bff00;
-        font-weight: lighter;
-        font-family: 'Space Mono', monospace;
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        margin: auto;
-    }
-    
-    /* <!--//////////////////////// Intro container section/////////////////////// --> */
-    #project_introBlock{
-        width: 100%;
-        height: 100vh;
-        background-image: url('../media/spacecc.svg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        position: relative;
-    }
-    
-    /* <!--//////////////////////// about section/////////////////////// --> */
-    #aboutProject{
-        width: 100%;
-        height: 60vh;
-        background-color: #03012d;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    #aboutBlock{
-        color: white;
-        width: 80%;
-        height: 60%;
-    }
-    #aboutBlock h2{
-        margin: 20px;
-        font-size: 26px;
-        color: #2bff00;
-        font-family: 'Cormorant SC', serif;
-    }
-    #aboutBlock p{
-        margin: 20px;
-        font-family: 'Space Mono', monospace;
-    }
-    
-    /* <!--//////////////////////// spacer/////////////////////// --> */
-    
-    #spacer{
-        width: 100%;
+    .introContainer{
+        background-color: #484848;
         height: 80vh;
-        background-image: url('../media/UntitledSkyMEDesign.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-    
-    /* <!--//////////////////////// project section/////////////////////// --> */
-    .projContainer{
-        width: 100%;
-        height: 100vh;
-        background-color: #03012d;
-        display: grid;
-        grid-template-columns: 100%;
-    }
-    
-    /* <!--//////////////////////// project article section/////////////////////// --> */
-    .articles{
-        width: 100%;
-        height: 60vh;
-        text-align: center;
-        color: whitesmoke;
-        background-color: #03012d;
-        overflow: hidden;
-    }
-    
-    .articles h2{
-        font-size: 28px;
-        margin: 10px 10px;
-        color: #2bff00;
-        font-family: 'Cormorant SC', serif;
-        /* background-color: #0c0028; */
-    }
-    
-    .articles h3{
-        font-size: 26px;
-        text-align: start;
-        margin: 5px 5px;
-        color: #13265a;
-        font-family: 'Cormorant SC', serif;
-    }
-    
-    .articles p{
-        margin: 8px;
-        font-size: 16px;
-        margin: 10px;
-        font-family: 'Space Mono', monospace;
-    }
-    
-    .articles button{
-        width: 100px;
-        height: 30px;
-        border: none;
-        border-radius: 4px;
-        background-color: rgb(94, 133, 241);
-        margin: auto;
-        padding: 0;
-        color: whitesmoke;
-        font-family: 'Almendra', serif;
-    }
-    
-    .asideNotActivated{
-        display: none;
-    }
-    .asideActivated{
-        background-color: gray;
-        /* margin: 10px; */
-        width: 100%;
-        height: 180px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    table{
-        width: 75%;
+
+    main{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .aboutContainer{
+        background-color: rgb(210, 210, 210);
+        padding: 50px 0;
+    }
+    .aboutContainer h2{
+        font-family: 'Vollkorn SC', serif;
         margin: 0 10px;
-        /* border: 1px solid black; */
+        color: rgba(38, 79, 228, 0.72);
     }
-    th{
-        /* border: 1px solid black; */
-        font-size: 22px;
-        color: #2bff00;
-        text-align: start;
-        font-family: 'Almendra', serif;
+    .aboutContainer p{
+        font-family: 'Roboto', sans-serif;
+        margin: 0 10px;
     }
-    td{
-        /* border: 1px solid black; */
-        font-size: 18px;
-        color: black;
-        text-align: start;
-    }
-    
-    .btnBox{
-        /* background-color: #2bff00; */
-        width: 20%;
-        height: 60px;
-        margin: auto;
+
+    .moreAboutBox{
+        background-color: rgb(210, 210, 210);
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        padding: 5px 0;
     }
-    .btnBox button{
+
+    .moreAboutBox button{
         width: 100px;
-        height: 30px;
+        height: 35px;
         border: none;
-        border-radius: 4px;
-        background-color: rgb(94, 133, 241);
-        margin: auto;
-        padding: 0;
-        color: whitesmoke;
-        font-family: 'Almendra', serif;
+        background-color: aquamarine;
     }
-    #wraperImages_proj, #wraperImages_market, #wraperImages_design{
-        width: 100%;
-        height: 300px;
+
+    .projectContainer{
+        height: fit-content;
+        background-image: url('../media/Untitledcc1Cback.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: transparent;
+        padding: 50px 0;
     }
-    #wraperImages_market .stragWraper a{
-        background-color: transparent;
+
+    .cordsBox{
+        background-color: #fffffff6;
+        height: fit-content;
+        margin: 20px auto;
+       
+        border-radius: 6px;
     }
-    .linkPics{
-        background-color: transparent;
-    }
-    .pics:hover{
-        padding: 5px 10px;
-        box-shadow: 0 0 10px 0 black;
+    .cordsBox:hover{
         transition-duration: 0.5s;
+        background-color: #ffffffdc;
+         box-shadow: 0 0 10px 1px black;
+    }
+
+    .cordsBox h3{
+        font-family: 'Vollkorn SC', serif;
+        font-size: 20px;
+        margin: 6px 0;
+        color: rgba(38, 79, 228, 0.72);
+    }
+    .cordsBox p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    .imgBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+    .cardImg{
+        width: 200px;
+        height: 200px;
+    }
+    .btnBox{
+        /* background-color: brown; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0;
+    }
+    .btnBox button{
+        width: 100px;
+        height: 35px;
+        border: none;
+        border-radius: 4.5px;
+        background-color: rgba(38, 79, 228, 0.72);
+        color: whitesmoke;
+    }
+    .btnBox button:hover{
+        transition-duration: 0.5s;
+        background-color: rgba(21, 28, 53, 0.72);
+    }
+
+    footer{
+        text-align: center;
+        height: fit-content;
+        background-color: #484848;
+        color: whitesmoke;
     }
