@@ -30,11 +30,19 @@ body{
     }
 
     .introContainer{
-        background-color: #484848;
+        background-image: url('../media/UntitledmeccccBack.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         height: 80vh;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .introContainer h2{
+        font-family: 'Vollkorn SC', serif;
+        text-shadow: 0 0 10px 0 black;
     }
 
     main{
@@ -43,21 +51,22 @@ body{
     }
 
     .aboutContainer{
-        background-color: rgb(210, 210, 210);
+        background-color: rgb(61, 61, 61);
         padding: 50px 0;
     }
     .aboutContainer h2{
         font-family: 'Vollkorn SC', serif;
         margin: 0 10px;
-        color: rgba(38, 79, 228, 0.72);
+        color: whitesmoke;
     }
     .aboutContainer p{
         font-family: 'Roboto', sans-serif;
         margin: 0 10px;
+        color: whitesmoke;
     }
 
     .moreAboutBox{
-        background-color: rgb(210, 210, 210);
+        background-color: rgb(61, 61, 61);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -68,7 +77,9 @@ body{
         width: 100px;
         height: 35px;
         border: none;
-        background-color: aquamarine;
+        border-radius: 6.2px;
+        background-color: rgba(6, 56, 237, 0.72);
+        color: whitesmoke;
     }
 
     .projectContainer{
@@ -85,7 +96,7 @@ body{
     }
 
     .cordsBox{
-        background-color: #fffffff6;
+        background-color: #343434f3;
         height: fit-content;
         margin: 20px auto;
        
@@ -93,7 +104,7 @@ body{
     }
     .cordsBox:hover{
         transition-duration: 0.5s;
-        background-color: #ffffffdc;
+        background-color: #8f8f8fdc;
          box-shadow: 0 0 10px 1px black;
     }
 
@@ -106,6 +117,7 @@ body{
     .cordsBox p{
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
+        color: whitesmoke;
     }
     .imgBox{
         display: flex;
@@ -135,6 +147,10 @@ body{
     .btnBox button:hover{
         transition-duration: 0.5s;
         background-color: rgba(21, 28, 53, 0.72);
+    }
+    .slider{
+        height: 80vh;
+        background-color: rgba(38, 79, 228, 0.72);
     }
 
     footer{
