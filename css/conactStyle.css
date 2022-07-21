@@ -51,6 +51,7 @@ body{
 .formTextBox h2{
     font-size: 22px;
     font-family: 'Vollkorn SC', serif;
+    color: rgb(0, 123, 255);
 }
 .formTextBox p{
     font-size: 14px;
