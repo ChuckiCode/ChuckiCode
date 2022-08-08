@@ -85,6 +85,33 @@ h1 span{
     height: 30px;
 }
 
+.frontEndBox{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/59da3e51e5dd5b95993b46a9/1654899923208-Y8VZGKDHV1LGKHFPMVI6/image-asset.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backEndBox{
+    background-image: url('https://img.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_107791-1624.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vcsBox{
+    background-image: url('https://rigorousthemescom-ebizon.netdna-ssl.com/blog/wp-content/uploads/2022/03/word-image-365.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desiBox{
+    background-image: url('https://i.ytimg.com/vi/Ah-jnpya4-s/maxresdefault.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #mySkillsContainer{
     width: 100%;
     height: fit-content;
