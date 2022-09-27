@@ -4,246 +4,598 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="ChuckiCODE"
-        content="Web Developer and UI UX designer that develops websites, web aplications and mini games">
-    <meta property="og:image" content="media/UntitledwebCover.jpg">
-    <meta property="og:description"
-        content="Freelancer that offers web development, web design and marketing strategies for small businesses to showcase their products and services, attract new customers and help increase their organic search traffic to improve their Google rankings through proven SEO strategies">
-    <meta property="og:title" content="Development and Designing Studio">
-    <link rel="icon" href="media/UntitledCCLogo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/loder.css">
+    <title>Web development and Web Designs with ChuckiCODE</title>
+    <meta name="description"
+        content="Germiston base website developer and designer that builds professional and beautiful websites affordable and will generates sales ">
+    <meta property=”og:title” content=”Professional and beautiful website that will generates sales” />
+    <meta property=”og:url” content=”http://www.chuckicode.com” />
+    <meta property=”og:type” content=”website” />
+    <meta property=” og:description” content=” Web development, web design and marketing strategies for small businesses to showcase their products and services, attract new customers and help increase their organic search traffic to improve their Google rankings through proven SEO strategies”/>
+    <meta property=”og:image” content=”/media/22ogImg.jpg” />
+    <link rel="icon" href="media/cc_logo/UntitledCCLogo.png" type="image/x-icon">
+
+    <meta name=”twitter:card” content=”Best websites build by chuckicode”/> 
+    <meta name=”twitter:site” content=”http://www.chuckicode.com” /> 
+    <meta name=”twitter:title” content=”Professional and beautiful website that will generates sales” /> 
+    <meta name=”twitter:description” content=”Web development, web design and marketing strategies for small businesses to showcase their products and services, attract new customers and help increase their organic search traffic to improve their Google rankings through proven SEO strategies”/> 
+    <meta name=”twitter:image” content=”image” />
+    
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Vollkorn+SC:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&family=Vollkorn+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>ChuckiCODE | Home</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
 </head>
 <body>
+    <header>
 
-<!-- Loding first  -->
-<script src="js/loader.js"></script>
-<div id="preloader">
-  <img src="/media/loader/preloader-thumb.gif" alt="">
-</div>
-
-
-
-    <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">ChuckiCODE</h5>
-          <div class="row">
-            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
-              <span class="text-muted navLinks active"><a href="#">HOME</a></span>
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="/media/cc_logo/UntitledCCLogo.png" alt="red and black logo that says chuckicode freelancer" style="width:120px;height:40px;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#container_about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services_container">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#packages_container">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact_container">Contact</a>
+                  </li>
+                </ul>
+                <span class="navbar-text d-flex">
+                    <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </span>
+              </div>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
-              <span class="text-muted navLinks" ><a href="pages/proj.html">PROJECTS</a></span>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
-              <span class="text-muted navLinks"><a href="pages/conta.html">CONTACT</a></span>
+          </nav>
+
+          <div class="container-fluid">
+            <div class="row align-self-center">   
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 d-flex justify-content-center align-items-center mt-5">
+                    <div class="row m-auto">    
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 intro">
+                            <h1>Professional Websites <br> Beautiful Designs <br> with <span>ChuckiCODE</span> </h1>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <section class="iconBox">
+                                <a href="https://www.facebook.com/profile.php?id=100076204383609" target="_blank" rel="noopener noreferrer">
+                                
+                                    <svg style="width: 40px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
+
+                                </a>
+                                
+        
+                                <svg style="width: 40px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+        
+                                <a href="https://www.linkedin.com/showcase/chuckicode" target="_blank" rel="noopener noreferrer">
+                                    <svg style="width: 40px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                                </a>
+                                
+                            </section>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pt-3">
+                            <a name="" id="" class="btn btn-primary" href="#" role="button">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 mt-5 ">
+                    <img src="media/responsive_designs/Group 17reDes1.png" alt="a mobile and laptop with a responsive website display of a surfer on waves" class="designs_responsive swing img-fluid">
+                    <img src="media/responsive_designs/Group 18reDes2.png" alt="a mobile and laptop with a responsive website display of a ecommerce site" class="designs_responsive swing img-fluid">
+                    <img src="media/responsive_designs/Group 19reDes1.png" alt="a mobile and laptop with a responsive website display of a portifolio of a cheff" class="designs_responsive swing img-fluid">
+                    <img src="media/responsive_designs/Group 20reDes1.png" alt="a mobile and laptop with a responsive website display of a business man making a call by a desk" class="designs_responsive swing img-fluid">
+                </div>
             </div>
           </div>
-        </div>
-      </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </nav>
+    </header>
 
 <main>
-  <section id="mainIntroContainer">
-<div class="container glassContainer">
-  <div class="row">
-    <h1>Chucki <span>CODE</span></h1>
-    <p>My hunger for knowledge and determination to create even bigger projects led me to turn infomation into action by challenging myself with different projects and designs.</p>
-  </div>
-  <div class="row">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-4 iconBox">
-      <a href="https://www.facebook.com/ChuckiCODE" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
-    </div>
-    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-4 iconBox">
-      <a href="https://www.linkedin.com/showcase/chuckicode" target="_blank" rel="noopener noreferrer">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-      </a>
-    </div>
-    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-4 iconBox">
-      <a href="https://github.com/ChuckiCode" target="_blank" rel="noopener noreferrer"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
-    </div>
-  </div>
-  <div class="row m-2 d-flex align-items-center justify-content-around">
-    <a name="resumeBtn" id="resumeBtn" class="btn btn-primary col-sm-12 col-md-12 col-lg-5 m-1" href="DocuText/WdevResume.pdf" role="button">Download resume</a>
-    <a name="hireBtn" id="hireBtn" class="btn btn-primary col-sm-12 col-md-12 col-lg-5 m-1" href="pages/conta.html" role="button">HIRE ME</a>
-  </div>
-</div>
-</section>
+<div class="container-fluid pt-5" id="container_about">
+    <div class="row pt-5 pb-5">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 m-auto text-center">
+            <h3><span>ABOUT US</span></h3>
+                <p style="color: rgb(207, 207, 207);"><strong>Chuckicode</strong> specializes in web development, web design and marketing strategies for small businesses to showcase their products and services, attract new customers and help increase their organic search traffic to improve their Google rankings through proven SEO strategies.</p>
 
-<div class="container-fluid">
-  <div class="row d-flex align-items-center justify-content-center p-3 bg-light">
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 p-3">
-      <div class="progress">
-          <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;"
-              aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Web Development</div>
-      </div>
+                <p style="color: rgb(207, 207, 207);">We started in the year 2021 developing websites and web applications for bussiness in south africa as well as putting businessess on the map by improving their google ranking and social media ranking to gain more customers and build potential audiences</p>
+                <button id="cnt_btn">CONTACT</button>
+        </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 p-3">
-      <div class="progress">
-        <div class="progress-bar bg-primary text-center" role="progressbar" style="width: 75%;"
-            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Digital Designs</div>
+    <div class="row pt-5 pb-5 text-light">
+
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center m-auto h-100" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <svg class="about_icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M112 0C85.5 0 64 21.5 64 48V96H16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 272c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 48c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 240c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 208c8.8 0 16 7.2 16 16s-7.2 16-16 16H64V416c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H112zM544 237.3V256H416V160h50.7L544 237.3zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48zm368-48c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48z"/></svg>
+                    <h4>FAST ON WEBSITES</h4>
+                    <p style="color: rgb(83, 83, 83);">We know time is money, so we work around the clock to get our client business on the map as quick as possible</p>
+        </div>
+
+
+
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center text-light m-auto h-100" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <svg class="about_icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+                    <h4>WEBSITE SECURITY</h4>    
+                    <p style="color: rgb(83, 83, 83);">Our main priority is our clients security, therefor we develop secure websites with the latest technologies</p>
+        </div>
+
+
+
+        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 text-center text-light m-auto h-100" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <svg class="about_icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 204.2V48c0-8.8 7.2-16 16-16H72c8.8 0 16 7.2 16 16V88c0 4.4 3.6 8 8 8h32c4.4 0 8-3.6 8-8V48c0-8.8 7.2-16 16-16h80c8.8 0 16 7.2 16 16V88c0 4.4 3.6 8 8 8h32c4.4 0 8-3.6 8-8V48c0-8.8 7.2-16 16-16h56c8.8 0 16 7.2 16 16V204.2c0 12.1-6.8 23.2-17.7 28.6l-28.6 14.3c-10.8 5.4-17.7 16.5-17.5 28.6C322.2 360.7 336 416 336 416H48s13.8-55.3 15.8-140.2c.3-12.1-6.6-23.2-17.5-28.6L17.7 232.8C6.8 227.4 0 216.3 0 204.2zM176 320h32c8.8 0 16-7.2 16-16V256c0-17.7-14.3-32-32-32s-32 14.3-32 32v48c0 8.8 7.2 16 16 16zM32 448H352c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+                    <h4>WEBSITE STRATEGY</h4>
+                    <p style="color: rgb(83, 83, 83);">We work closely with our clients to get the best business strageties to suit our clients needs</p>
+        </div>
+
+
+
     </div>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 p-3">
-      <div class="progress">
-        <div class="progress-bar bg-primary" role="progressbar" style="width: 65%;"
-            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Social Media Marketing</div>
-    </div>
-    </div>
-  </div>
 </div>
 
 
-<section id="mySkillsContainer">
-<div class="row">
-  <div class="col-xs-1-12 skillsFeaderBox">
-    <h2>Skills and Experience</h2>
-  </div>
+
+<div id="services_container" class="container-fluid pt-5 pb-5">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 m-auto" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <h3 style="color: #FFCA0E; font-size: 18px;">WEB DEVELOPMENT AND DESIGNING SERVICES</h3>
+                <p> <span>We take pride in our services to bring our clients the best for the long run.</span> </p>
+                <a name="" id="" class="btn btn-primary" href="#" role="button">CONTACT</a>
+        </div>
+    </div>
+
+    <div class="row pt-5">
+        <div class="container-fluid pt-5 pb-5">
+
+            <div class="row">
+                 <div class="col-xs-12 col-sm-10 col-md-5 col-lg-4 m-3">
+                <div class="row">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"  data-aos="flip-left">
+                        <svg class="ser_icons"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+                    </div>
+                    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10">
+                        <h4 style="color: #6697B2;">Web Development</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10">
+                        <p>We code static or dynamic complex web applications, electronic businesses, and social network services.</p>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="col-xs-12 col-sm-1 col-md-1 col-lg-3">
+            
+        </div>
+
+        <div class="col-xs-12 col-sm-10 col-md-5 col-lg-4 m-3">
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" data-aos="flip-right">
+                    <svg class="ser_icons"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
+                </div>
+                <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10 ">
+                    <h4 style="color: #6697B2;">Web design</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                <div class="ccol-xs-10 col-sm-10 col-md-8 col-lg-10">
+                    <p>Help you form a good impression on your prospective customers and good user experience.</p>
+                </div>
+            </div>
+        </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-10 col-md-5 col-lg-4 m-3"> 
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"  data-aos="flip-left">
+                            <svg class="ser_icons"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M544 32c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V64c0-17.7 14.3-32 32-32zM64 190.3L480 64V448L348.9 408.2C338.2 449.5 300.7 480 256 480c-53 0-96-43-96-96c0-11 1.9-21.7 5.3-31.5L64 321.7C63.1 338.6 49.1 352 32 352c-17.7 0-32-14.3-32-32V192c0-17.7 14.3-32 32-32c17.1 0 31.1 13.4 32 30.3zm239 203.9l-91.6-27.8c-2.1 5.4-3.3 11.4-3.3 17.6c0 26.5 21.5 48 48 48c23 0 42.2-16.2 46.9-37.8z"/></svg>
+                        </div>
+                        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10">
+                            <h4 style="color: #6697B2;">Search engine optimization</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10">
+                            <p>Our SEO strageties will improve the quality and quantity of our websites traffic and turn your prospects into customers.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-xs-12 col-sm-1 col-md-1 col-lg-3"></div>
+        
+                <div class="col-xs-12 col-sm-10 col-md-5 col-lg-4 m-3">
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" data-aos="flip-right">
+                                <svg class="ser_icons"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M368.4 18.3L312.7 74.1 437.9 199.3l55.7-55.7c21.9-21.9 21.9-57.3 0-79.2L447.6 18.3c-21.9-21.9-57.3-21.9-79.2 0zM288 94.6l-9.2 2.8L134.7 140.6c-19.9 6-35.7 21.2-42.3 41L3.8 445.8c-3.8 11.3-1 23.9 7.3 32.4L164.7 324.7c-3-6.3-4.7-13.3-4.7-20.7c0-26.5 21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48c-7.4 0-14.4-1.7-20.7-4.7L33.7 500.9c8.6 8.3 21.1 11.2 32.4 7.3l264.3-88.6c19.7-6.6 35-22.4 41-42.3l43.2-144.1 2.8-9.2L288 94.6z"/></svg>
+                        </div>
+                        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10">
+                            <h4 style="color: #6697B2;">Graphic Design</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10">
+                            <p>Our digital designs focusus to promote and sell products through advertising and develop an identity through branding.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </div>
 
-    <div class="container-fluid p-3 " data-aos="flip-right">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 bg-light text-center">
-          <h3>Frontend Development</h3>
-          <p>Frontend development is my strong point as I have been hard coding this side of the field the longest. From forms to complex web pages and web applications, it became easy for me when working with these elements in the markup language and styling it with the power of CSS. My favorite language is javascript, as I have taken multiple courses to understand javascript to become a master in the javascript language.</p>
+
+
+
+
+<div id="packages_container" class="container-fluid pt-5 pb-5">
+    <div class="row pt-5 pb-5">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 m-auto" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <h3 style="font-family: 'Merriweather', serif; color: #6697B2; font-size:18px;">BEST PACKAGES THAT WILL PUT YOUR BUSINESS ON THE MAP</h3>
+                <p><span>We offer a veriety of packages for afordible prices.</span> </p>
+                <a name="" id="" class="btn btn-primary" href="#" role="button">CONTACT</a>
         </div>
-        </div> 
-        <div class="container p-3 frontEndBox" style="height: 22
-        0px;">
-            <div class="row d-flex align-items-center justify-content-evenly ">
-
-            <svg style="fill: rgb(255, 136, 0);" class="svgIconsFe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>
-
-            <svg style="fill: rgb(61, 58, 244);" class="svgIconsFe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>
-
-            <svg style="fill: rgb(185, 185, 0);" class="svgIconsFe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/></svg>
-
-            <svg style="fill: purple;" class="svgIconsFe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z"/></svg>
-
-          </div>
-        </div>
-        </div>
-
-    <div class="container-fluid p-3" data-aos="flip-right">
-      <div class="row" >
-        <div class="col-sm-12 col-md-12 col-lg-12 bg-light text-center">
-          <h3>Backend Development</h3>
-          <p>The backend of development is definitely my weakest point in development as I have little experience in this field. Challenging myself to work with server side projects is challenging and quite difficult but not unachievable.</p>
-        </div>
-        </div>
-        <div class="container p-3 backEndBox" style="height: 200px;">
-        <div class="row d-flex align-items-center justify-content-evenly p-3">
-            <svg style="fill: green;" class="svgIconsFe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M316.3 452c-2.1 0-4.2-.6-6.1-1.6L291 439c-2.9-1.6-1.5-2.2-.5-2.5 3.8-1.3 4.6-1.6 8.7-4 .4-.2 1-.1 1.4.1l14.8 8.8c.5.3 1.3.3 1.8 0L375 408c.5-.3.9-.9.9-1.6v-66.7c0-.7-.3-1.3-.9-1.6l-57.8-33.3c-.5-.3-1.2-.3-1.8 0l-57.8 33.3c-.6.3-.9 1-.9 1.6v66.7c0 .6.4 1.2.9 1.5l15.8 9.1c8.6 4.3 13.9-.8 13.9-5.8v-65.9c0-.9.7-1.7 1.7-1.7h7.3c.9 0 1.7.7 1.7 1.7v65.9c0 11.5-6.2 18-17.1 18-3.3 0-6 0-13.3-3.6l-15.2-8.7c-3.7-2.2-6.1-6.2-6.1-10.5v-66.7c0-4.3 2.3-8.4 6.1-10.5l57.8-33.4c3.7-2.1 8.5-2.1 12.1 0l57.8 33.4c3.7 2.2 6.1 6.2 6.1 10.5v66.7c0 4.3-2.3 8.4-6.1 10.5l-57.8 33.4c-1.7 1.1-3.8 1.7-6 1.7zm46.7-65.8c0-12.5-8.4-15.8-26.2-18.2-18-2.4-19.8-3.6-19.8-7.8 0-3.5 1.5-8.1 14.8-8.1 11.9 0 16.3 2.6 18.1 10.6.2.8.8 1.3 1.6 1.3h7.5c.5 0 .9-.2 1.2-.5.3-.4.5-.8.4-1.3-1.2-13.8-10.3-20.2-28.8-20.2-16.5 0-26.3 7-26.3 18.6 0 12.7 9.8 16.1 25.6 17.7 18.9 1.9 20.4 4.6 20.4 8.3 0 6.5-5.2 9.2-17.4 9.2-15.3 0-18.7-3.8-19.8-11.4-.1-.8-.8-1.4-1.7-1.4h-7.5c-.9 0-1.7.7-1.7 1.7 0 9.7 5.3 21.3 30.6 21.3 18.5 0 29-7.2 29-19.8zm54.5-50.1c0 6.1-5 11.1-11.1 11.1s-11.1-5-11.1-11.1c0-6.3 5.2-11.1 11.1-11.1 6-.1 11.1 4.8 11.1 11.1zm-1.8 0c0-5.2-4.2-9.3-9.4-9.3-5.1 0-9.3 4.1-9.3 9.3 0 5.2 4.2 9.4 9.3 9.4 5.2-.1 9.4-4.3 9.4-9.4zm-4.5 6.2h-2.6c-.1-.6-.5-3.8-.5-3.9-.2-.7-.4-1.1-1.3-1.1h-2.2v5h-2.4v-12.5h4.3c1.5 0 4.4 0 4.4 3.3 0 2.3-1.5 2.8-2.4 3.1 1.7.1 1.8 1.2 2.1 2.8.1 1 .3 2.7.6 3.3zm-2.8-8.8c0-1.7-1.2-1.7-1.8-1.7h-2v3.5h1.9c1.6 0 1.9-1.1 1.9-1.8zM137.3 191c0-2.7-1.4-5.1-3.7-6.4l-61.3-35.3c-1-.6-2.2-.9-3.4-1h-.6c-1.2 0-2.3.4-3.4 1L3.7 184.6C1.4 185.9 0 188.4 0 191l.1 95c0 1.3.7 2.5 1.8 3.2 1.1.7 2.5.7 3.7 0L42 268.3c2.3-1.4 3.7-3.8 3.7-6.4v-44.4c0-2.6 1.4-5.1 3.7-6.4l15.5-8.9c1.2-.7 2.4-1 3.7-1 1.3 0 2.6.3 3.7 1l15.5 8.9c2.3 1.3 3.7 3.8 3.7 6.4v44.4c0 2.6 1.4 5.1 3.7 6.4l36.4 20.9c1.1.7 2.6.7 3.7 0 1.1-.6 1.8-1.9 1.8-3.2l.2-95zM472.5 87.3v176.4c0 2.6-1.4 5.1-3.7 6.4l-61.3 35.4c-2.3 1.3-5.1 1.3-7.4 0l-61.3-35.4c-2.3-1.3-3.7-3.8-3.7-6.4v-70.8c0-2.6 1.4-5.1 3.7-6.4l61.3-35.4c2.3-1.3 5.1-1.3 7.4 0l15.3 8.8c1.7 1 3.9-.3 3.9-2.2v-94c0-2.8 3-4.6 5.5-3.2l36.5 20.4c2.3 1.2 3.8 3.7 3.8 6.4zm-46 128.9c0-.7-.4-1.3-.9-1.6l-21-12.2c-.6-.3-1.3-.3-1.9 0l-21 12.2c-.6.3-.9.9-.9 1.6v24.3c0 .7.4 1.3.9 1.6l21 12.1c.6.3 1.3.3 1.8 0l21-12.1c.6-.3.9-.9.9-1.6v-24.3zm209.8-.7c2.3-1.3 3.7-3.8 3.7-6.4V192c0-2.6-1.4-5.1-3.7-6.4l-60.9-35.4c-2.3-1.3-5.1-1.3-7.4 0l-61.3 35.4c-2.3 1.3-3.7 3.8-3.7 6.4v70.8c0 2.7 1.4 5.1 3.7 6.4l60.9 34.7c2.2 1.3 5 1.3 7.3 0l36.8-20.5c2.5-1.4 2.5-5 0-6.4L550 241.6c-1.2-.7-1.9-1.9-1.9-3.2v-22.2c0-1.3.7-2.5 1.9-3.2l19.2-11.1c1.1-.7 2.6-.7 3.7 0l19.2 11.1c1.1.7 1.9 1.9 1.9 3.2v17.4c0 2.8 3.1 4.6 5.6 3.2l36.7-21.3zM559 219c-.4.3-.7.7-.7 1.2v13.6c0 .5.3 1 .7 1.2l11.8 6.8c.4.3 1 .3 1.4 0L584 235c.4-.3.7-.7.7-1.2v-13.6c0-.5-.3-1-.7-1.2l-11.8-6.8c-.4-.3-1-.3-1.4 0L559 219zm-254.2 43.5v-70.4c0-2.6-1.6-5.1-3.9-6.4l-61.1-35.2c-2.1-1.2-5-1.4-7.4 0l-61.1 35.2c-2.3 1.3-3.9 3.7-3.9 6.4v70.4c0 2.8 1.9 5.2 4 6.4l61.2 35.2c2.4 1.4 5.2 1.3 7.4 0l61-35.2c1.8-1 3.1-2.7 3.6-4.7.1-.5.2-1.1.2-1.7zm-74.3-124.9l-.8.5h1.1l-.3-.5zm76.2 130.2l-.4-.7v.9l.4-.2z"/></svg>
-
-           <svg style="fill: rgb(109, 109, 248);" class="svgIconsFe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5c-171.4 0-303.2-72.2-303.2-151.5S148.7 104.5 320 104.5m0-16.8C143.3 87.7 0 163 0 256s143.3 168.3 320 168.3S640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3h36.7l8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7h-70.7L97.4 350.3zm185.7-213.6h36.5l-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1h-37c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6h-36.5l32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3H421l8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7H417l-32.8 168.7z"/></svg>
-
-          </div>
-          </div>
-        </div>
-
-    <div class="container-fluid p-3" data-aos="flip-right">
-      <div class="row" >
-        <div class="col-sm-12 col-md-12 col-lg-12 bg-light text-center">
-          <h3>(VCS) Version Control Systems</h3>
-          <p>I work with Git software to track the changes in my project files daily. Im not spending too much time on learning a variety of different version control systems as I underastand and know the basics of git as it is a very important tool to coordinate work amongst programmers.</p>
-        </div>
-        </div>
-
-        <div class="container p-3 vcsBox" style="height: 200px;">
-          <div class="row d-flex align-items-center justify-content-evenly p-3">
-           <svg style="fill: rgb(255, 63, 4);" class="svgIconsFe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M100.59 334.24c48.57 3.31 58.95 2.11 58.95 11.94 0 20-65.55 20.06-65.55 1.52.01-5.09 3.29-9.4 6.6-13.46zm27.95-116.64c-32.29 0-33.75 44.47-.75 44.47 32.51 0 31.71-44.47.75-44.47zM448 80v352a48 48 0 0 1-48 48H48a48 48 0 0 1-48-48V80a48 48 0 0 1 48-48h352a48 48 0 0 1 48 48zm-227 69.31c0 14.49 8.38 22.88 22.86 22.88 14.74 0 23.13-8.39 23.13-22.88S258.62 127 243.88 127c-14.48 0-22.88 7.84-22.88 22.31zM199.18 195h-49.55c-25-6.55-81.56-4.85-81.56 46.75 0 18.8 9.4 32 21.85 38.11C74.23 294.23 66.8 301 66.8 310.6c0 6.87 2.79 13.22 11.18 16.76-8.9 8.4-14 14.48-14 25.92C64 373.35 81.53 385 127.52 385c44.22 0 69.87-16.51 69.87-45.73 0-36.67-28.23-35.32-94.77-39.38l8.38-13.43c17 4.74 74.19 6.23 74.19-42.43 0-11.69-4.83-19.82-9.4-25.67l23.38-1.78zm84.34 109.84l-13-1.78c-3.82-.51-4.07-1-4.07-5.09V192.52h-52.6l-2.79 20.57c15.75 5.55 17 4.86 17 10.17V298c0 5.62-.31 4.58-17 6.87v20.06h72.42zM384 315l-6.87-22.37c-40.93 15.37-37.85-12.41-37.85-16.73v-60.72h37.85v-25.41h-35.82c-2.87 0-2 2.52-2-38.63h-24.18c-2.79 27.7-11.68 38.88-34 41.42v22.62c20.47 0 19.82-.85 19.82 2.54v66.57c0 28.72 11.43 40.91 41.67 40.91 14.45 0 30.45-4.83 41.38-10.2z"/></svg>
-          </div>
-          </div>
     </div>
+    <div class="row">
 
-    <div class="container-fluid p-3" data-aos="flip-right">
-      <div class="row" >
-
-        <div class="col-sm-12 col-md-12 col-lg-12 bg-light text-center">
-          <h3>Vector Graphics Editor and Prototyping tools</h3>
-          <p>Designing comes easy to me as I have a strong artistic bloodline and background but it is tricky. It took alot of practicing, like designing websites and other web projects to get the hang of the graphic editor tools to be able to design digitally.</p>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-3 h-100 packs pt-3 pb-4 mb-4">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h3 class="pack_name">Basic Static <br> <span>Package</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2 class="pack_price">R2200 <span>once-off</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <ul class="list-unstyled">
+                    <li>Hosting</li>
+                    <hr>
+                    <li>Free Domain</li>
+                    <hr>
+                    <li>UX UI Design</li>
+                    <hr>
+                    <li>SEO Ready</li>
+                    <hr>
+                    <li>Responsive</li>
+                    <hr>
+                    <li>Tamplate Free</li>
+                    <hr>
+                </ul>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <button>BOOK</button>
+                </div>
+            </div>
         </div>
+
+
+
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-3 h-100 packs pt-3 pb-4 mb-4">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h3 class="pack_name">Basic Dynamic <br> <span>Package</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2 class="pack_price">R160 <span>per month</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <ul class="list-unstyled">
+                        <li>Hosting</li>
+                        <hr>
+                        <li>Free Domain</li>
+                        <hr>
+                        <li>Payments</li>
+                        <hr>
+                        <li>SEO Ready</li>
+                        <hr>
+                        <li>Responsive</li>
+                        <hr>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <button>BOOK</button>
+                </div>
+            </div>
         </div>
-        <div class="container p-3 desiBox" style="height: 200px;">
-        <div class="row d-flex align-items-center justify-content-evenly p-3">
-            <svg class="svgIconsFe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M14 95.7924C14 42.8877 56.8878 0 109.793 0H274.161C327.066 0 369.954 42.8877 369.954 95.7924C369.954 129.292 352.758 158.776 326.711 175.897C352.758 193.019 369.954 222.502 369.954 256.002C369.954 308.907 327.066 351.795 274.161 351.795H272.081C247.279 351.795 224.678 342.369 207.666 326.904V415.167C207.666 468.777 163.657 512 110.309 512C57.5361 512 14 469.243 14 416.207C14 382.709 31.1945 353.227 57.2392 336.105C31.1945 318.983 14 289.5 14 256.002C14 222.502 31.196 193.019 57.2425 175.897C31.196 158.776 14 129.292 14 95.7924ZM176.288 191.587H109.793C74.2172 191.587 45.3778 220.427 45.3778 256.002C45.3778 291.44 73.9948 320.194 109.381 320.416C109.518 320.415 109.655 320.415 109.793 320.415H176.288V191.587ZM207.666 256.002C207.666 291.577 236.505 320.417 272.081 320.417H274.161C309.737 320.417 338.576 291.577 338.576 256.002C338.576 220.427 309.737 191.587 274.161 191.587H272.081C236.505 191.587 207.666 220.427 207.666 256.002ZM109.793 351.795C109.655 351.795 109.518 351.794 109.381 351.794C73.9948 352.015 45.3778 380.769 45.3778 416.207C45.3778 451.652 74.6025 480.622 110.309 480.622C146.591 480.622 176.288 451.186 176.288 415.167V351.795H109.793ZM109.793 31.3778C74.2172 31.3778 45.3778 60.2173 45.3778 95.7924C45.3778 131.368 74.2172 160.207 109.793 160.207H176.288V31.3778H109.793ZM207.666 160.207H274.161C309.737 160.207 338.576 131.368 338.576 95.7924C338.576 60.2173 309.737 31.3778 274.161 31.3778H207.666V160.207Z"/></svg>
-          </div>
-          </div>
+
+
+
+
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-3 h-100 packs pt-3 pb-4 mb-4">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h3 class="pack_name">Business Static <br> <span>Package</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2 class="pack_price">R5000 <span>once-off</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-1 col-md-12 col-lg-12">
+                    <ul class="list-unstyled">
+                        <li>Hosting</li>
+                        <hr>
+                        <li>Free Domain</li>
+                        <hr>
+                        <li>UX UI Design</li>
+                        <hr>
+                        <li>Advanced SEO</li>
+                        <hr>
+                        <li>Responsive</li>
+                        <hr>
+                        <li>Tamplate Free</li>
+                        <hr>
+                        <li>Profesional Email</li>
+                        <hr>
+                        <li>User registration</li>
+                        <hr>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <button>BOOK</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-3 h-100 packs pt-3 pb-4 mb-4">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h3 class="pack_name">Bisiness Dynamic <br> <span>Package</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2 class="pack_price">R600 <span>per month</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <ul class="list-unstyled">
+                        <li>Hosting</li>
+                        <hr>
+                        <li>Free Domain</li>
+                        <hr>
+                        <li>Pay with PayPal</li>
+                        <hr>
+                        <li>Advanced SEO</li>
+                        <hr>
+                        <li>Responsive</li>
+                        <hr>
+                        <li>Site Monetization</li>
+                        <hr>
+                        <li>Profesional Email</li>
+                        <hr>
+                        <li>User Registration</li>
+                        <hr>
+                        <li>Google Analytics</li>
+                        <hr>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <button>BOOK</button>
+                </div>
+            </div>
+        </div>
+
     </div>
-
-
-<div class="row">
-  <div class="col-xs-1-12 btnBox">
-     <a name="projBtn" id="projBtn" class="btn btn-primary" href="pages/proj.html" role="button">Go to projects</a>
-  </div>
-</div>
-   
-</section>
-
-<section id="slideContainer">
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner imgContainer">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="media/slideImages/Designs/UntitledSkaterProSvg.svg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item imgContainer" data-bs-interval="2000">
-        <img src="/media/slideImages/Designs/UntitledDesign1a.svg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
-
-
-<div class="container-fluid bg-dark overflow-hidden">
-  <div class="row">
-    <div class="col-xs-12 col-lg-12">
-      
-    </div>
-  </div>
 </div>
 </main>
 
-<div class="container-fluid overflow-hidden">
-  <div class="row">
     <footer>
-       <small id="copyRight">Copyright 2021-2022. All Rights Received.</small>
-   </footer>
-  </div>
-</div>
-   
+        <div id="contact_container" class="container-fluid">
+            <div class="row align-items-start">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 m-auto text-center" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    <h3 style="font-size: 18px;"><span>CONTACT US</span></h3>
+            <p><span>Please get in touch and our expert suport agent will answer all your questions.</span></p>
+                </div>
+            </div>
 
- 
-<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+            <div class="row align-items-center">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+                    <div class="container">
+                        <form class="p-3"> 
+
+                            <div class="form-group m-2">
+                                <label for="inputName" class="col-sm-1-12 col-form-label">Name</label>
+                                <div class="col-sm-1-12">
+                                    <input type="text" class="form-control" name="inputName" id="inputName" placeholder="John">
+                                    <small id="namelHelpId" class="form-text text-muted">Firstname</small>
+                                </div>
+                            </div>
+
+                            <div class="form-group m-2">
+                              <label for="email">Email</label>
+                              <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="example@mail.com">
+                              <small id="emailHelpId" class="form-text text-muted">Valid email</small>
+                            </div>
+
+                            <div class="form-group m-2">
+                              <label for="num">Number</label>
+                              <input type="number" class="form-control" name="num" id="num" aria-describedby="emailHelpId" placeholder="">
+                              <small id="numHelpId" class="form-text text-muted">Contact number</small>
+                            </div>
+
+                            
+
+                            <div class="form-group m-2">
+                              <label for="subject">Subject</label>
+                              <select class="form-control" name="subject" id="subject">
+                                <option>Services</option>
+                                <option>Packages</option>
+                                <option>Querry</option>
+                              </select>
+                              <small id="numHelpId" class="form-text text-muted">Select a topic</small>
+                            </div>
+
+                            <div class="form-group m-2">
+                              <label for="msg">Message</label>
+                              <textarea class="form-control" name="msg" id="msg" rows="3" placeholder="Type your message here.."></textarea>
+                            </div>
+
+                            <div class="form-group mt-2">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2 bg-danger"></div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mt-2 pb-2">
+                    <div class="row">
+                        <form class="p-3">
+                            <h3>Newsletter</h3>
+                            <p>Subscribe to recive updates on special offers once a week</p>
+                        <div class="form-group row">
+                            <label for="inputName" class="col-sm-1-12 col-form-label">Name</label>
+                            <div class="col-sm-1-12">
+                                <input type="text" class="form-control" name="inputName" id="inputName" placeholder="John">
+                                <small id="namelHelpId" class="form-text text-muted">Firstname</small>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="example@mail.com">
+                          <small id="emailHelpId" class="form-text text-muted">Valid email</small>
+                        </div>
+
+                        <div class="form-group row mt-2">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="row mt-5">
+                                <h3>Follow</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                                    <section class="iconBox">
+                                        <a href="https://www.facebook.com/profile.php?id=100076204383609" target="_blank" rel="noopener noreferrer">
+                                
+                                            <svg style="width: 40px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
+        
+                                        </a>
+                                        
+                
+                                        <svg style="width: 40px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+                
+                                        <a href="https://www.linkedin.com/showcase/chuckicode" target="_blank" rel="noopener noreferrer">
+                                            <svg style="width: 40px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                                        </a>
+                                    </section>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="row bg-dark pt-4 h-auto">
+                <div class="col-sm-12 col-sm-12 col-md-4 col-lg-4 text-light text-start">
+                    <h3>Find Us</h3>
+                    <ul class="list-unstyled">
+                        <li><img src="/media/cc_logo/UntitledCCLogo.png" alt="red and black logo that says chuckicode freelancer" width="50px" height="20px" style="border: 1px solid black;"></li>
+                        <li><a class="text-decoration-none" href="tel:+27680755153">068 075 5153</a></li>
+                        <li><a class="text-decoration-none" href="mailto:chuckicode@outlook.com">chuckicode@outlook.com</a></li>
+                        <li><address>
+                            Germiston, South Africa
+                        </address></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-sm-12 col-md-4 col-lg-4 text-start text-light ">
+                    <h3>Navigate</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none" href="#container_about">About</a></li>    
+                        <li><a class="text-decoration-none" href="#services_container">Services</a></li>    
+                        <li><a class="text-decoration-none" href="#packages_container">Packages</a></li>      
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-sm-12 col-md-4 col-lg-4 text-start text-light font">
+                    <h3>Developer</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none" href="tel:+27680755153">068 075 5153</a></li>
+                        <li><a class="text-decoration-none" href="mailto:mag3davis@gmail.com">mag3davis@gmail.com</a></li>
+                        <li><a class="text-decoration-none" href="https://mark-davis.netlify.app/" target="_blank" rel="noopener noreferrer">Portifolio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark">
+            <div class="row">
+                <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12 text-light text-center">
+                    <small>© 2022 ChuckiCODE - All rights reserved </small>
+                </div>
+            </div>
+        </div>
+</footer>
+    <script src="js/app.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
